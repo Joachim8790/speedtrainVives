@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "speedtrainVives", "speedtrainVives\speedtrainVives.csproj", "{7125E039-52DE-468E-8744-715720CCF734}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "speedtrainVives.DAO", "speedtrainVives.DAO\speedtrainVives.DAO.csproj", "{11D2AE35-841A-42FE-8DB9-F91041C30421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "speedtrainVives.Models", "speedtrainVives.Models\speedtrainVives.Models.csproj", "{01930C68-83E0-4806-8CC4-9B0A60029892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedtrainVives.Service", "SpeedtrainVives.Service\SpeedtrainVives.Service.csproj", "{572075AE-EDF2-409C-91D1-EF33B9412E64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{7125E039-52DE-468E-8744-715720CCF734}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7125E039-52DE-468E-8744-715720CCF734}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7125E039-52DE-468E-8744-715720CCF734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D2AE35-841A-42FE-8DB9-F91041C30421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D2AE35-841A-42FE-8DB9-F91041C30421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D2AE35-841A-42FE-8DB9-F91041C30421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D2AE35-841A-42FE-8DB9-F91041C30421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01930C68-83E0-4806-8CC4-9B0A60029892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01930C68-83E0-4806-8CC4-9B0A60029892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01930C68-83E0-4806-8CC4-9B0A60029892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01930C68-83E0-4806-8CC4-9B0A60029892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{572075AE-EDF2-409C-91D1-EF33B9412E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572075AE-EDF2-409C-91D1-EF33B9412E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572075AE-EDF2-409C-91D1-EF33B9412E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572075AE-EDF2-409C-91D1-EF33B9412E64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

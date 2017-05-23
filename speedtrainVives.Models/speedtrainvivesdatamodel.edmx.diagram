@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6792395f36f3471ca65622b1405ee5cc" Name="Diagram1">
+        <EntityTypeShape EntityType="scriptModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.AspNetRoles" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.AspNetUserClaims" Width="1.5" PointX="5.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.AspNetUserLogins" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.AspNetUsers" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.tblBestellijn" Width="1.5" PointX="7.5" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.tblBestelling" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.tblGebruiker" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.tblHotel" Width="1.5" PointX="3.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.tblProduct" Width="1.5" PointX="6" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.tblStad" Width="1.5" PointX="1.5" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.tblTraject" Width="1.5" PointX="3.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.tblTreinplaats" Width="1.5" PointX="9.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.tblTussenlocatie" Width="1.5" PointX="6" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="scriptModel.tblWinkelmandlijn" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="scriptModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.FK_tblBestelling_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.FK_tblWinkelmandlijn_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.FK_tblBestellijn_tblBesteling" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.FK_tblBestellijn_tblProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.FK_tblTreinplaats_tblBestellijn" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.FK_tblHotel_tblStad" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.FK_tblProduct_tblHotel" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.FK_tblProduct_tblTraject" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.FK_tblWinkelmand_tblProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.FK_tblTraject_tblStadAankomst" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.FK_tblTraject_tblStadVertrek" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.FK_tblTussenlocatie_tblTraject" ManuallyRouted="false" />
+        <AssociationConnector Association="scriptModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
